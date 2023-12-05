@@ -1,4 +1,3 @@
-/* Google Fonts - Poppins */
 
 * {
   margin: 0;
@@ -157,8 +156,4 @@ a.google span {
   color: #232836;
 }
 
-@media screen and (max-width: 400px) {
-  .form {
-    padding: 20px 10px;
-  }
-}
+
