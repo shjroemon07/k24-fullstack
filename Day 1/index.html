@@ -1,26 +1,67 @@
 <!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <title>Login Form</title>
+
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div>
-      <h1>Câu 1</h1>
+    <section class="container forms">
+      <div class="form login">
+        <div class="form-content">
+          <header>Login</header>
+          <form action="#">
+            <div class="field input-field">
+              <input type="email" placeholder="Email" class="input" />
+            </div>
 
-      <div class="box-3">
-        <div class="box-1"></div>
-        <div class="box-2"></div>
-      </div>
-    </div>
-    <div>
-      <h1>Câu 2</h1>
+            <div class="field input-field">
+              <input type="password" placeholder="Password" class="password" />
+              
+            </div>
 
-      <div class="box-3">
-        <div class="box-one"></div>
-        <div class="box-two"></div>
+            <div class="remember-me">
+              <input type="checkbox" id="remember" />
+              <label for="remember">Remember me</label>
+            </div>
+
+            <div class="field button-field">
+              <button>Login</button>
+            </div>
+          </form>
+
+          <div class="form-link">
+            <div class="form-link">
+              <a href="#" class="forgot-pass">Forgot password?</a>
+            </div>
+            <span
+              >Don't have an account?
+              <a href="#" class="link signup-link">Signup</a></span
+            >
+          </div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="media-options">
+          <a href="#" class="field facebook">
+            <img src="./img/fb.png" class="facebook-icon" alt="" />
+            <span>Login with Facebook</span>
+          </a>
+        </div>
+
+        <div class="media-options">
+          <a href="#" class="field google">
+            <img src="./img/gg.jpg" alt="" class="google-img" />
+            <span>Login with Google</span>
+          </a>
+        </div>
       </div>
-    </div>
+      </div>
+    </section>
   </body>
 </html>
